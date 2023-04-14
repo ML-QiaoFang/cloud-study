@@ -15,7 +15,6 @@ spring:
       test-while-idle: false #关闭ali池的一个sql连接测试,如果用1.1.20以上版本就不用加
 
 eureka:
-
   client:
     # 表示是否将自己注册进EurekaServer
     register-with-eureka: true
