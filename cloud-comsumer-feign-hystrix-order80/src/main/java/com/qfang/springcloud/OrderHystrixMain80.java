@@ -13,7 +13,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableEurekaClient
 @EnableFeignClients
 public class OrderHystrixMain80 {
-
     public static void main(String[] args) {
         SpringApplication.run(OrderHystrixMain80.class, args);
     }
