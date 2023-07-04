@@ -9,8 +9,8 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  * @date 2023/5/30 - 20:07
  */
 
-@EnableEurekaClient
 @SpringBootApplication
+@EnableEurekaClient
 public class GateWayMain9527 {
     public static void main(String[] args) {
         SpringApplication.run(GateWayMain9527.class, args);
